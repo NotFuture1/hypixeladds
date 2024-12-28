@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "${modid}",
+    "name": "FutureSB",
+    "description": "Fake Killaura",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Future"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
