@@ -3,6 +3,7 @@ package mod.future;
 import mod.future.commands.BanCount;
 import mod.future.commands.Status;
 import mod.future.hypixel.AutoFriend;
+import mod.future.hypixel.AutoGuildWelcome;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -20,6 +21,7 @@ public class Main {
         MinecraftForge.EVENT_BUS.register(this);
 
         MinecraftForge.EVENT_BUS.register(new AutoFriend());
+        MinecraftForge.EVENT_BUS.register(new AutoGuildWelcome());
 
         ClientCommandHandler.instance.registerCommand(new BanCount());
         ClientCommandHandler.instance.registerCommand(new Status());
